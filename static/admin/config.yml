@@ -6,6 +6,15 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "staff"
+    label: "Staff"
+    folder: "/src/pages/staff"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "First Name", name: "firstName", widget: "string"}
+      - {label: "Last Name", name: "lastName", widget: "string"}
+    
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
