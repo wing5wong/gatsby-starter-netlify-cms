@@ -12,6 +12,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "First Name", name: "firstName", widget: "string"}
       - {label: "Last Name", name: "lastName", widget: "string"}
     
